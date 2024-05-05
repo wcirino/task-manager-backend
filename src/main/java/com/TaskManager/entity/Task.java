@@ -1,7 +1,6 @@
 package com.TaskManager.entity;
 
-import java.security.Timestamp;
-import java.time.LocalDate;
+
 import java.util.Date;
 
 import jakarta.persistence.Column;
@@ -29,21 +28,21 @@ public class Task {
 	    private String descricao;
 	    
 	    @Column(name = "dt_criacao")
-	    private Date dtCriacao;
+	    private Date dt_Criacao;
 	    
 	    @Column(name = "dt_conclusao")
-	    private Date dtConclusao;
+	    private Date dt_Conclusao;
 	    
 	    @Column(name = "dt_limite")
 	    private Date dt_limite;
 	    
 	    @Column(name = "prioridade")
-	    private int prioridade;
+	    private Integer prioridade;
 	    
 	    @Column(name = "responsavel")
-	    private int responsavel;
+	    private Integer responsavel;
 	    
 	    @Column(name = "status")
-	    private int status;
+	    private Integer status;
 
 }

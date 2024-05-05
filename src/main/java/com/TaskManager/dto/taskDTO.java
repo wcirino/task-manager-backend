@@ -18,9 +18,9 @@ public class taskDTO {
     private Long id;
     private String titulo;
     private String descricao;
-    private Date dtCriacao;
-    private Date dtConclusao;
-    private Date dtLimite;
+    private Date dt_Criacao;
+    private Date dt_Conclusao;
+    private Date dt_limite;
     private Status status;
     private Responsavel responsavel;
     private Prioridade prioridade;
