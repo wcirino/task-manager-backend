@@ -43,10 +43,21 @@ Marca uma tarefa como concluída com base no ID fornecido.
 
 Cria uma nova tarefa.
 
-### PUT /tasks/atualizar-task/{id}
+Exemplo de Payload JSON:
+```json
+{
+    "id": 2,
+    "titulo": "Desenvolvimento de Recursos",
+    "descricao": "Desenvolver novos recursos para a aplicação móvel.",
+    "dt_Criacao": "21/04/2024",
+    "dt_Conclusao": "02/05/2024",
+    "dt_limite": "01/05/2024",
+    "status": "CONCLUIDA",
+    "responsavel": "NATALIA",
+    "prioridade": "MEDIA"
+}
+## Front-end
 
-Atualiza uma tarefa existente com base no ID fornecido.
+O front-end correspondente a esta API pode ser encontrado no seguinte repositório:
 
-### DELETE /tasks/{id}
-
-Exclui uma tarefa com base no ID fornecido.
+[Task Manager Front-end](https://github.com/wcirino/task-manager-front-end)
